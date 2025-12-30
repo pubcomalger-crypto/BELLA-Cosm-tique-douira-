@@ -4,9 +4,9 @@ const profileConfig = {
     // Informations de base
 
 
-    name: "COCA",
-    bio: "SALAM",
-    profileImage: "https://i.ibb.co/NgKMhgMT/cocacola.jpg",
+    name: "BELLA Cosmétique douira",
+    bio: "مرحبا بكم عند",
+    profileImage: "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fee03f9d9804b4814d09a8f2404319a7~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=426f3b24&x-expires=1767268800&x-signature=FTTDH%2BZmv%2Bz4EGqp9SyXNKkJ9S8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=sg1",
     
 
 
@@ -15,17 +15,17 @@ const profileConfig = {
 
     // Réseaux sociaux
     socialLinks: {
-        facebook: "https://www.facebook.com/share/16dysjBQvt/?mibextid=wwXIfr",
-        instagram: "https://www.instagram.com/riyadmahrez26.7?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-        tiktok: "https://www.tiktok.com/@chebkhaled?is_from_webapp=1&sender_device=pc",
-        whatsapp: "+213540253369",
+        facebook: "https://www.facebook.com/profile.php?id=100063736591462#",
+        instagram: "https://www.instagram.com/bella_cosmetique_douera/",
+        tiktok: "https://www.tiktok.com/@www.tiktok.combellacosm7",
+        whatsapp: "+213665360063",
         telegram: "+213 562 33 14 08",
         linkedin: "daisyparkhouse",
         snapchat: "https://www.snapchat.com/@sheikh_tidiane?sender_web_id=792b2a4d-05d3-4e8f-a5e0-1aeb89eba722&device_type=desktop&is_copy_url=true",
         email: "pubcom.alger@gmail.com",
         website: "https://www.youtube.com/",
-        maps: "https://share.google/T1z7NAFbftnLYNKZy",
-        phone: "+213658546209"
+        maps: "https://maps.app.goo.gl/f5GCpyApjdFpDx39A",
+        phone: "+213665360063"
     },
     
 
@@ -40,13 +40,13 @@ const profileConfig = {
         instagram: true,     // Afficher Instagram
         tiktok: true,        // Afficher TikTok
         whatsapp: true,      // Afficher WhatsApp
-        telegram: true,      // Afficher Telegram
+        telegram: false,      // Afficher Telegram
         linkedin: false,     // Afficher LinkedIn (mettre true pour l'activer)
         website: false,       // Afficher Site Web
         maps: true,          // Afficher Maps
         phone: true,         // Afficher Téléphone
-        snapchat: true,      // Afficher Snapchat
-        email: true,         // Afficher Email
+        snapchat: false,      // Afficher Snapchat
+        email: false,         // Afficher Email
     },
     
 };
@@ -83,3 +83,4 @@ if (typeof module !== 'undefined' && module.exports) {
 } else {
     window.profileConfig = profileConfig;
 }
+
